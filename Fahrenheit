@@ -1,0 +1,16 @@
+/* Fahrenheit program
+   9-13-19
+   nate campbell
+   take Cel and convert to Frht
+*/
+
+#include <stdio.h>
+#include <cs50.h>
+int main(void)
+{
+   float Cel;
+   Cel= get_float ("Enter temp in C");
+   float Frht;
+   Frht = ((Cel * 9) / 5) + 32;
+   printf("%.2f\n",Frht);
+}
